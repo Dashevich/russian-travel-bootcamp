@@ -1,0 +1,25 @@
+.place__image {
+  margin: 0 auto;
+  width: 320px;
+  height: auto;
+  grid-column: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    margin-left: 0;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__image {
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__image {
+    width: 460px;
+  }
+}

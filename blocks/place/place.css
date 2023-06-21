@@ -1,0 +1,34 @@
+.place {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  grid-row-gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    margin-left: 24px;
+    margin-right: 24px;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 28px;
+    grid-row-gap: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    margin-left: 48px;
+    margin-right: 48px;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    margin-left: 148px;
+    margin-right: 148px;
+    grid-column-gap: 40px;
+  }
+}

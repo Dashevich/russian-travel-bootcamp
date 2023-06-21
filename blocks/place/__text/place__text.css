@@ -1,0 +1,24 @@
+.place__text {
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: grid;
+    grid-template-columns: auto;  
+    grid-template-rows: min-content;
+    grid-row-gap: 25px;
+}
+  
+@media screen and (min-width: 768px) {
+    .place__text {
+        margin: 0;
+        grid-row-gap: 26px;
+        grid-column: 2;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__text {
+        grid-row-gap: 27px;
+    }
+}
+  
