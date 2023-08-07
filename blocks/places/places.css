@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 768px) {
   .places {
-    grid-row-gap: 72px;
+    grid-row-gap: 71px;
     margin-top: 88px;
   }
 }

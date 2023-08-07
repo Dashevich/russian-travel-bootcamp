@@ -11,14 +11,8 @@
 @media screen and (min-width: 768px) {
     .place__text {
         margin: 0;
-        grid-row-gap: 26px;
+        grid-row-gap: 25px;
         grid-column: 2;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .place__text {
-        grid-row-gap: 27px;
     }
 }
   
