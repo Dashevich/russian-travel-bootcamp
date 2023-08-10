@@ -1,4 +1,5 @@
 # Проект: Путешествие по России
+GitHub Pages: https://dashevich.github.io/russian-travel-bootcamp/
 
 ### Обзор
 * Интро
