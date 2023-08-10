@@ -7,14 +7,16 @@
   color: #FFFFFF;
   margin: 48px auto;
   margin-bottom: 0;
-  width: 288px;
+  max-width: 288px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .lead__title {
     font-size: 96px;
     line-height: 100px;
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1280px) {
