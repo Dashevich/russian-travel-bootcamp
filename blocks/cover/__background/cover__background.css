@@ -43,6 +43,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__background {
+    margin: 0 auto;
     min-height: 740px;
     max-width: 1184px;
   }
